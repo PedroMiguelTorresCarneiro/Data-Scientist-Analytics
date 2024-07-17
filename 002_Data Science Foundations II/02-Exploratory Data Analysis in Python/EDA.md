@@ -55,19 +55,19 @@ Once we’ve inspected our data and done some initial cleaning steps, numerical 
 In pandas, we can get a quick collection of numerical summaries using the 
 ```python
 data.describe(include = 'all')
-|                | Student Name | Favorite Class | Age | Hours of Sleep | Hours Spent Studying |
-|----------------|--------------|----------------|-----|----------------|----------------------|
-| count          | 250          | 250            | 250 | 250            | 250                  |
-| unique         | 177          | 15             | NaN | NaN            | NaN                  |
-| top            | Kevin        | Math           | NaN | NaN            | NaN                  |
-| freq           | 12           | 23             | NaN | NaN            | NaN                  |
-| mean           | NaN          | NaN            | 13.75 | 7.89         | 4.34                 |
-| std            | NaN          | NaN            | 1.68 | 0.3           | 0.6                  |
-| min            | NaN          | NaN            | 8   | 4.5           | 0.5                  |
-| 25%            | NaN          | NaN            | 10.3 | 5.6          | 1.47                 |
-| 50%            | NaN          | NaN            | 13.5 | 7.6          | 4.32                 |
-| 75%            | NaN          | NaN            | 17  | 9.7           | 6.5                  |
-| max            | NaN          | NaN            | 23  | 11            | 10.5                 |
+|                | Student Name | Favorite Class | Age   | Hours of Sleep | Hours Spent Studying |
+|----------------|--------------|----------------|-------|----------------|----------------------|
+| count          | 250          | 250            | 250   | 250            | 250                  |
+| unique         | 177          | 15             | NaN   | NaN            | NaN                  |
+| top            | Kevin        | Math           | NaN   | NaN            | NaN                  |
+| freq           | 12           | 23             | NaN   | NaN            | NaN                  |
+| mean           | NaN          | NaN            | 13.75 | 7.89           | 4.34                 |
+| std            | NaN          | NaN            | 1.68  | 0.3            | 0.6                  |
+| min            | NaN          | NaN            | 8     | 4.5            | 0.5                  |
+| 25%            | NaN          | NaN            | 10.3  | 5.6            | 1.47                 |
+| 50%            | NaN          | NaN            | 13.5  | 7.6            | 4.32                 |
+| 75%            | NaN          | NaN            | 17    | 9.7            | 6.5                  |
+| max            | NaN          | NaN            | 23    | 11             | 10.5                 |
 ```
 Based on this table, we can see that there are 177 unique student names in our table, with Kevin being the most common. The average student age is 13.75 years with students as young as 8 years and as old as 23 years.
 
